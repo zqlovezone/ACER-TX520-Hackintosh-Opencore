@@ -12,7 +12,7 @@
 | SATA    | HP SSD S700 500GB| 
 | 显卡 | Intel UHD Graphics 620 2048 MB                     |
 | 声卡         | Realtek ALC255          |
-| 无线网卡       | DW1280A |
+| 无线网卡       | DW1280A | 原生英特尔无线网卡驱动暂未支持，但未来会支持
 
 
 ## 正常工作的设备
@@ -23,11 +23,11 @@
 - 无线网卡
     - 需要拆机更换无线网卡(建议更换dw1820a)
 - 触摸板
-    - 手势完美(更新系统触摸板不能用时需要重建缓存。驱动 `VoodooI2C` + `SSDT-OC-XOSI.aml`)
+    - 手势完美(需要在BIOS-Main-Touchpad 下改为 Basic， 驱动'ApplePS2SmartTouchPad.kext’+ `VoodooI2C。kext` + `SSDT-OC-XOSI.aml`)
 - 摄像头
     - 蓝牙和摄像头可能需要 `Hackintool.app` 内建usb才能正常休眠
 - 声卡 Realtek ALC255 
-    - 自编译声卡ID3
+    - 自编译声卡ID：3
 - 显示器
     - 修复休眠唤醒黑屏: 重命名 `_LID=>XLID` 配合使用 `SSDT-LID-Wake-After-Sleep.aml`
 - 键盘
