@@ -1,7 +1,7 @@
 # ACER-TX520-Hackintosh-Opencore
 宏碁 TravelMate TX520-G2-MG ，这个EFI 支持 macOS Big Sur 11# TX520-G2-MG i5-8250u 15.6寸 黑苹果
 
-需要解压ApplePS2SmartTouchPad.kext.zip ,BIOS 里需要把 Touchpad改成Basic
+需要在BIOS-Main-Touchpad 下改为 Basic
 ## Configuration
 
 | 描述   | 详情                                                  |
