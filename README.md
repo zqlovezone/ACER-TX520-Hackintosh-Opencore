@@ -19,11 +19,11 @@
 
 - 显卡
     - 亮度控制快捷键: 需要重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 `SSDT-BrightKey.aml`
-    - 亮度调节: `SSDT-PNLF.aml` + `WhateverGreen.kext`
+    - 亮度调节: `SSDT-PNLF.aml` + `BrightnessKeys.kext`
 - 无线网卡
     - 需要拆机更换无线网卡(建议更换dw1820a)
 - 触摸板
-    - 手势完美(需要在BIOS-Main-Touchpad 下改为 Basic， 驱动'ApplePS2SmartTouchPad.kext’+ `VoodooI2C。kext` + `SSDT-OC-XOSI.aml`)
+    - 手势完美(需要在BIOS-Main-Touchpad 下改为 Basic， 驱动ApplePS2SmartTouchPad.kext+ `VoodooI2C.kext` + `SSDT-OC-XOSI.aml`)
 - 摄像头
     - 蓝牙和摄像头可能需要 `Hackintool.app` 内建usb才能正常休眠
 - 声卡 Realtek ALC255 
