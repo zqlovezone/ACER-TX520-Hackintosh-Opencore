@@ -9,7 +9,7 @@
 | 电脑型号      |  宏碁TravelMate TX520-G2-MG|
 | 处理器           | 英特尔酷睿i5-8250U处理器     |
 | 内存              | 8 GB 2400 MHz DDR4              |
-| SATA    | HP SSD S700 500GB| 
+| SATA    | HP SSD S700 500GB 原装固态硬盘是支持的但空间太小不适合双系统| 
 | 显卡 | Intel UHD Graphics 620 2048 MB                     |
 | 声卡         | Realtek ALC255          |
 | 无线网卡       | DW1280A  原生英特尔无线网卡驱动暂未支持，但未来会支持|
@@ -23,7 +23,7 @@
 - 无线网卡
     - 需要拆机更换无线网卡(建议更换dw1820a)
 - 触摸板
-    - 手势完美(需要在BIOS-Main-Touchpad 下改为 Basic， 驱动ApplePS2SmartTouchPad.kext+ `VoodooI2C.kext` + `SSDT-OC-XOSI.aml`)
+    - 手势完美(需要在BIOS-Main-Touchpad 下改为 Basic， 驱动`ApplePS2SmartTouchPad.kext`+ `VoodooI2C.kext` + `SSDT-OC-XOSI.aml`)
 - 摄像头
     - 蓝牙和摄像头可能需要 `Hackintool.app` 内建usb才能正常休眠
 - 声卡 Realtek ALC255 
@@ -37,3 +37,4 @@
 ## 不能正常工作的设备
 
 - 独显 MX130
+
