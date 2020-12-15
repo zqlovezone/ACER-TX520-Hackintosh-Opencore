@@ -1,5 +1,5 @@
 # ACER-TX520-Hackintosh-Opencore
-宏碁 TravelMate TX520-G2-MG ，这个EFI 支持 macOS Big Sur 11# TX520-G2-MG i5-8250u 15.6寸 黑苹果
+宏碁 TravelMate TX520-G2-MG ，这个EFI 支持 macOS Big Sur 11.0 和11.1  TX520-G2-MG i5-8250u 15.6寸 黑苹果
 
 需要在BIOS-Main-Touchpad 下改为 Basic
 ## Configuration
@@ -9,10 +9,10 @@
 | 电脑型号      |  宏碁TravelMate TX520-G2-MG|
 | 处理器           | 英特尔酷睿i5-8250U处理器     |
 | 内存              | 8 GB 2400 MHz DDR4              |
-| SATA    | HP SSD S700 500GB 原装固态硬盘是支持的但空间太小不适合双系统| 
+| SATA    | HP SSD S700 500GB|| 原装固态硬盘是支持的但空间太小不适合双系统| 
 | 显卡 | Intel UHD Graphics 620 2048 MB                     |
 | 声卡         | Realtek ALC255          |
-| 无线网卡       | DW1280A  原生英特尔无线网卡驱动暂未支持，但未来会支持|
+| 无线网卡       | DW1280A  ||原生英特尔无线网卡驱动暂未支持，但未来会支持|
 
 
 ## 正常工作的设备
