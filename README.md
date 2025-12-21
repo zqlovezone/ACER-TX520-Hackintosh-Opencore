@@ -12,7 +12,7 @@
 | SATA    | HP SSD S700 500GB| 原装固态硬盘是支持的但空间太小不适合双系统| 
 | 显卡 | Intel UHD Graphics 620 2048 MB                     |
 | 声卡         | Realtek ALC255     |
-| 无线网卡       | Intel原网卡  | 
+| 无线网卡       | Intel AC 7265  | 
 
 
 ## 正常工作的设备
