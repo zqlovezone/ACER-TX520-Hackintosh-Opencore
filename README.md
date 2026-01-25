@@ -1,4 +1,6 @@
 # ACER-TX520-Hackintosh-Opencore
+使用OpCore simplify GUI 自动生成 
+
 宏碁 TravelMate TX520-G2-MG ，这个EFI 支持  macOS Sonoma 14.8.3（23J220） i5-8250u 15.6寸 黑苹果
 
 需要在BIOS-Main-Touchpad 下改为 Basic
@@ -18,12 +20,11 @@
 ## 正常工作的设备
 
 - 显卡
-    - 亮度控制快捷键: 需要重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 `SSDT-BrightKey.aml`
     - 亮度调节: `SSDT-PNLF.aml` + `BrightnessKeys.kext`
 - 无线网卡
     - 不需要拆机更换无线网卡
 - 触摸板
-    - 手势完美(需要在BIOS-Main-Touchpad 下改为 Basic， 驱动`ApplePS2SmartTouchPad.kext`+ `VoodooI2C.kext` + `SSDT-OC-XOSI.aml`)
+    - 手势完美(需要在BIOS-Main-Touchpad 下改为 Basic
 - 摄像头
     - 摄像头可以正常休眠
 - 声卡 Realtek ALC255 
