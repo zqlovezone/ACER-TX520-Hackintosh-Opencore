@@ -30,7 +30,7 @@
 - 声卡 Realtek ALC255 
     - 自编译声卡ID：3
 - 显示器
-    - 修复休眠唤醒黑屏: 重命名 `_LID=>XLID` 配合使用 `SSDT-LID-Wake-After-Sleep.aml`
+    内建
 - 键盘
     - 音量和亮度调节 已经可以使用
 
